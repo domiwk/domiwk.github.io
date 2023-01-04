@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experience on Dominika Woszczyk</title>
-    <link>domiwk.github.io/experience/</link>
+    <link>/experience/</link>
     <description>Recent content in Experience on Dominika Woszczyk</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="domiwk.github.io/experience/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/experience/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
