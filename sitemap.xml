@@ -2,28 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/activity/</loc>
+    <loc>/blog/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/</loc>
   </url><url>
-    <loc>/activity/entrepreneurship/</loc>
+    <loc>/activity/</loc>
   </url><url>
     <loc>/experience/</loc>
-  </url><url>
-    <loc>/activity/entrepreneurship/storymi/</loc>
   </url><url>
     <loc>/more/</loc>
   </url><url>
     <loc>/projects/</loc>
   </url><url>
-    <loc>/activity/entrepreneurship/article/</loc>
+    <loc>/activity/3_storymi/</loc>
+  </url><url>
+    <loc>/activity/2_article_26_08_2023/</loc>
+  </url><url>
+    <loc>/activity/article/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>
-    <loc>/activity/talks/</loc>
-  </url><url>
     <loc>/teaching/</loc>
+  </url><url>
+    <loc>/blog/23_08_26_lombard_vc/</loc>
   </url>
 </urlset>

@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Activity on Dominika Woszczyk</title>
+    <title>Entrepreneuship on Dominika Woszczyk</title>
     <link>/activity/</link>
-    <description>Recent content in Activity on Dominika Woszczyk</description>
+    <description>Recent content in Entrepreneuship on Dominika Woszczyk</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/activity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storymi</title>
+      <link>/activity/3_storymi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/activity/3_storymi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surprise Surprise</title>
+      <link>/activity/2_article_26_08_2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/activity/2_article_26_08_2023/</guid>
+      <description>Thank you for your support! Hello. If you like this template, I&amp;rsquo;d be happy to get a coffee donation :)
+🔊</description>
+    </item>
+    
+    <item>
+      <title>Surprise Surprise 2023</title>
+      <link>/activity/article/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/activity/article/</guid>
+      <description>Thank you for your support! Hello. If you like this template, I&amp;rsquo;d be happy to get a coffee donation :)</description>
+    </item>
+    
   </channel>
 </rss>
