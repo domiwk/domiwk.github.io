@@ -6,6 +6,18 @@
     <description>Recent content on Dominika Woszczyk</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>\cvsection{Talks}
+\cvevent{\textbf{Invited Speaker @ Clarity Workshop 23&amp;rsquo;}}{Interspeech 2023}{August 2023}{Dublin, IE} Gave a talk about the Lombard effect and how it could be applied to Text-to-Speech to improve speech intelligibility and help people with hearing impairment. \vspace{1em}
+\cvevent{\textbf{Impostor Syndrome Workshop}}{Bearing Point}{July 2023}{London, UK} Gave an hour-long workshop on Impostor syndrome and coping strategies to consultants from BearingPoint as part of their new DIVE (Diversity, Inclusion, Variety, and Equality) initiative. \vspace{1em}
+\cvevent{\textbf{9th Doctoral Consortium}}{Interspeech 2023}{August 2023}{Dublin, IE} My abstract was selected to present my PhD thesis and progress to a panel of PhD students and experts.</description>
+    </item>
+    
+    <item>
       <title>Entrepreneurial AI student stars in Bright SCIdea Challenge with mental health chatbot</title>
       <link>/entrepreneurship/brightsci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
