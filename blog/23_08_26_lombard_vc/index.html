@@ -5,13 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Dominika Woszczyk</title>
-
-<meta name="description" content="">
+<title>Blog | Dominika Woszczyk</title>
+<meta name="keywords" content="" />
+<meta name="description" content="Blog - Dominika Woszczyk">
 <meta name="author" content="Dominika Woszczyk">
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/blog/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.93e673e4ab55f2c935c27b5dfc2a87fdeb12df6c9b7e11fc94c0b11b0fa3ed1f.css" integrity="sha256-k&#43;Zz5KtV8sk1wntd/CqH/esS32ybfhH8lMCxGw&#43;j7R8=" rel="preload stylesheet" as="style">
-<link rel="preload" href="/images/bag_imp.jpg" as="image">
 <link rel="icon" href="/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -19,7 +18,7 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="/index.xml">
+<link rel="alternate" type="application/rss+xml" href="/blog/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -135,23 +134,24 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="/images/blog/papers/lombard_vc_head.png" alt="" loading="lazy"  /></div>
+    <div class="w-100" ><img src="/images/blog/papers/lombard_vc/lombard_vc_head.png" alt="" loading="lazy"  /></div>
   </div></figure>
+<p><!-- raw HTML omitted --><em><strong>TL;DR:</strong> Lombard effect can be applied to Voice Conversion and Text-to-speech to make the synthetic voice more understandable in noise.</em><!-- raw HTML omitted --></p>
 <p><strong>Have you ever wondered why we tend to speak louder in a noisy room?</strong> Well, speech and linguistic researchers have been curious too, and they&rsquo;ve explored a concept called the <strong>Lombard Effect</strong> (discovered by <a href="https://en.wikipedia.org/wiki/%C3%89tienne_Lombard">Étienne Lombard</a>).</p>
-<h3 id="-the-lombard-effect-in-a-nutshell">🔊 The Lombard Effect in a Nutshell</h3>
+<h3 id="-the-lombard-effect-in-a-nutshell">💬 The Lombard Effect in a Nutshell</h3>
 <p>Picture yourself at a party, where the music is playing and everyone is chatting and laughing. Having a good time!  To make yourself heard by your friend, your brain automatically level up your voice&rsquo;s <em>volume</em>, tweaks your <em>pitch</em> and even adjust your <em>speech speed</em>. What&rsquo;s interesting is that we also tend to adapt our voice according to the feedback we get from the person in front of us  and the noise around us to make sure they get the message.</p>
 <p>Now, think about this effect applied to technology, like <strong>Text-to-Speech (TTS) systems</strong>, designed to make synthetic voices more intelligible. Imagine if these TTS systems could mimic the Lombard Effect. What if Alexa or Google Home could speak like that ? (A scenario already imagined by <a href="https://www.youtube.com/watch?v=YvT_gqs5ETk">SNL</a>).</p>
-<h3 id="-lombard-effect-and-text-to-speech">▴ Lombard Effect and Text to speech</h3>
-<p>Several work explored how Lombard style could be applied to Text to Speech to improve intelligibility. Their goal was to see whether they could train on a voice with Lombard-style recordings and improve intelligibility and naturalness. They found that indeed it was a more natural way to improve intelligibility than signal processing!</p>
+<h3 id="-lombard-effect-and-text-to-speech">🔊 Lombard Effect and Text-to-speech</h3>
+<p>Several works (See [<a href="https://www.pure.ed.ac.uk/ws/portalfiles/portal/84260765/Normal_to_Lombard_Adaptation_BOLLEPALLI_DoA180419_AFV.pdf">1</a>],[<a href="https://dipjyoti92.github.io/TTS-Style-Transfer/">2</a>]) explored how Lombard style could be applied to Text to Speech to improve intelligibility. Their goal was to see whether they could train on a voice with Lombard-style recordings and improve intelligibility and naturalness. They found that indeed it was a more natural way to improve intelligibility than signal processing!</p>
 <h3 id="-why-this-matters">▴ Why This Matters</h3>
 <p>Instead of just increasing the volume of processing the signal on the receiving end (like most hearing aids do), we can make the speech sound clearer right at the source!</p>
-<p>Hearing aids are amazing pieces of engineering, but they come with their challenges. They&rsquo;re not always comfortable, can be costly, and some people even opt not to use them regularly. But with Lombard-style TTS, the speech is automatically adjusted to be more distinct and easy to understand. This could be a game-changer, not only for those with hearing aids but for anyone in a noisy environment!</p>
-<h3 id="-current-problem">▴ Current Problem</h3>
+<p>Hearing aids are amazing pieces of engineering, but they come with their challenges. They&rsquo;re not always comfortable, can be costly, and some people even opt not to use them regularly. But with Lombard-style TTS, the speech is automatically adjusted to be more distinct and easy to understand. This could be a game-changer, not only for those with hearing aids but for non-native-speakers (See [<a href="https://www.sciencedirect.com/science/article/pii/S016763932100131X">3</a>]) and anyone in a noisy environment!</p>
+<h3 id="-current-problem">🚩 Current Problem</h3>
 <p>The works mentioned earlier used datasets with a lot of audio samples for a specific voice. What happens when you don&rsquo;t have that? How can we synthesise voice in a Lombard style without having to record (tiring, time consuming and expensive for voice talents)?</p>
 <h3 id="-a--solution">🔍 A  Solution?</h3>
 <p>Voice conversion, the process of transferring somebody&rsquo;s voice onto recordings of someone else&rsquo;s speech, can be applied as a data augmentation approach. The idea is to create recordings of the person&rsquo;s voice in the Lombard style by transferring the speaker identity on to the Lombard speech recordings.</p>
 <h3 id="-our--study">📚 Our  Study</h3>
-<p>In our paper, we decided to investigate how we could preserve the Lombard effect when doing voice conversion. Indeed, the target speaker information might overtake the the Lombard effect characteristics and not give us the expected results. We want to answer the following question: <em>Can we preserve Lombard-speaking style responsible for intelligibility during Voice Conversion, while also transferring the speaker&rsquo;s identity?</em></p>
+<p>In a <a href="https://www.amazon.science/publications/voice-conversion-for-lombard-speaking-style-with-implicit-and-explicit-acoustic-feature-conditioning">paper</a> we recently presented at the <a href="https://claritychallenge.org/clarity2023-workshop/programme.html">Clarity Workshop</a> at Interpseech 23&rsquo;, we decided to investigate how we could preserve the Lombard effect when doing voice conversion. Indeed, the target speaker information might overtake the the Lombard effect characteristics and not give us the expected results. We want to answer the following question: <em>Can we preserve Lombard-speaking style responsible for intelligibility during Voice Conversion, while also transferring the speaker&rsquo;s identity?</em></p>
 <p>Here on the graphics below you can find the three systems we tried out in our experiments.</p>
 <ul>
 <li>
@@ -209,12 +209,19 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="/images/blog/papers/lombard_vc_res.png" alt="" loading="lazy"  /></div>
+    <div class="w-100" ><img src="/images/blog/papers/lombard_vc/lombard_vc_res.png" alt="" loading="lazy"  /></div>
   </div></figure>
 <h3 id="-whats-the-conclusion">👉 What&rsquo;s the conclusion?</h3>
-<p>Past studies and our work show that Lombard-style TTS indeed increases speech intelligibility in noisy surroundings. While the naturalness might take a hit, the speakers&rsquo; identity is not affected. In our study we found that the Lombard intelligibility effect is lost with basic Voice conversion but by using conditioning either implicitly or explicitly we are able to transfer them better!</p>
+<p>Past studies and our work show that Lombard-style TTS indeed increases speech intelligibility in noisy surroundings. While the naturalness might take a hit, it it less noticeable in noise and the speakers&rsquo; identity is not as affected. In our study we found that the Lombard intelligibility effect is lost with basic Voice conversion but by using conditioning either implicitly or explicitly we are able to transfer them better!</p>
+<p><strong>Check out our paper <a href="https://www.amazon.science/publications/voice-conversion-for-lombard-speaking-style-with-implicit-and-explicit-acoustic-feature-conditioning">here</a> for more details</strong></p>
 <h3 id="-the-future-of-intelligible-speech">🚀 The Future of Intelligible Speech</h3>
 <p>Imagine a world where speech synthesis mimics our natural adjustments, making communication smoother in noisy places. With more research and innovation, Lombard-style TTS could  help with everyday activities for people with hearing impairment such as listening to music, youtube videos, watching movies etc,&hellip; and improve our interactions with smart assistants and voice-activated devices!</p>
+<h3 id="references">References</h3>
+<ul>
+<li>[1] <a href="https://www.pure.ed.ac.uk/ws/portalfiles/portal/84260765/Normal_to_Lombard_Adaptation_BOLLEPALLI_DoA180419_AFV.pdf">Bollepalli, Bajibabu, et al. &ldquo;Normal-to-Lombard adaptation of speech synthesis using long short-term memory recurrent neural networks. Speech Communication 110 (2019)</a></li>
+<li>[2] <a href="https://www.isca-speech.org/archive_v0/Interspeech_2020/pdfs/2793.pdf">Paul, Dipjyoti, et al. &ldquo;Enhancing speech intelligibility in text-to-speech synthesis using speaking style conversion.&rdquo; Proc. Interspeech (2020).</a></li>
+<li>[3] <a href="https://www.sciencedirect.com/science/article/pii/S016763932100131X#:~:text=These%20studies%20on%20non%2Dnative,influences%20of%20the%20native%20language.">Marcoux, Katherine, et al. &ldquo;The Lombard intelligibility benefit of native and non-native speech for native and non-native listeners.&rdquo; Speech Communication 136 (2022)</a></li>
+</ul>
 
   </div>
 
