@@ -5,12 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Blog | Dominika Woszczyk</title>
-<meta name="keywords" content="" />
-<meta name="description" content="Blog - Dominika Woszczyk">
+<title>Dominika Woszczyk</title>
+
+<meta name="description" content="">
 <meta name="author" content="Dominika Woszczyk">
-<link rel="canonical" href="/blog/" />
+<link rel="canonical" href="/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.93e673e4ab55f2c935c27b5dfc2a87fdeb12df6c9b7e11fc94c0b11b0fa3ed1f.css" integrity="sha256-k&#43;Zz5KtV8sk1wntd/CqH/esS32ybfhH8lMCxGw&#43;j7R8=" rel="preload stylesheet" as="style">
+<link rel="preload" href="/images/bag_imp.jpg" as="image">
 <link rel="icon" href="/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -18,7 +19,7 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="/blog/index.xml">
+<link rel="alternate" type="application/rss+xml" href="/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -151,7 +152,7 @@
 <h3 id="-a--solution">🔍 A  Solution?</h3>
 <p>Voice conversion, the process of transferring somebody&rsquo;s voice onto recordings of someone else&rsquo;s speech, can be applied as a data augmentation approach. The idea is to create recordings of the person&rsquo;s voice in the Lombard style by transferring the speaker identity on to the Lombard speech recordings.</p>
 <h3 id="-our--study">📚 Our  Study</h3>
-<p>In a <a href="https://www.amazon.science/publications/voice-conversion-for-lombard-speaking-style-with-implicit-and-explicit-acoustic-feature-conditioning">paper</a> we recently presented at the <a href="https://claritychallenge.org/clarity2023-workshop/programme.html">Clarity Workshop</a> at Interpseech 23&rsquo;, we decided to investigate how we could preserve the Lombard effect when doing voice conversion. Indeed, the target speaker information might overtake the the Lombard effect characteristics and not give us the expected results. We want to answer the following question: <em>Can we preserve Lombard-speaking style responsible for intelligibility during Voice Conversion, while also transferring the speaker&rsquo;s identity?</em></p>
+<p>In a <a href="https://www.amazon.science/publications/voice-conversion-for-lombard-speaking-style-with-implicit-and-explicit-acoustic-feature-conditioning">paper</a> we recently presented at the <a href="https://claritychallenge.org/clarity2023-workshop/programme.html">Clarity Workshop</a> at Interspeech 23&rsquo;, we decided to investigate how we could preserve the Lombard effect when doing voice conversion. Indeed, the target speaker information might overtake the the Lombard effect characteristics and not give us the expected results. We want to answer the following question: <em>Can we preserve Lombard-speaking style responsible for intelligibility during Voice Conversion, while also transferring the speaker&rsquo;s identity?</em></p>
 <p>Here on the graphics below you can find the three systems we tried out in our experiments.</p>
 <ul>
 <li>
@@ -184,11 +185,11 @@
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img src="/images/blog/papers/lombard_vc_sys.png" alt="" loading="lazy"  /></div>
   </div></figure>
-<p><strong>What did we find?</strong> As shown on the barplot below showing the intelligibility in high level of noise, we found that</p>
+<p><strong>What did we find?</strong> As shown on the barplot below showing the intelligibility in high levels of noise, we found that</p>
 <ul>
 <li>Indeed Lombard effect is lost during conversion</li>
 <li>Both explicit and Implicit conditioning help to improve the final intelligibility</li>
-<li>The fusion works even better but lose the target speaker information making it less useful</li>
+<li>The fusion works even better but loses the target speaker&rsquo;s information making it less useful</li>
 <li>Different features worked better for female and male voices</li>
 </ul>
 
@@ -212,10 +213,10 @@
     <div class="w-100" ><img src="/images/blog/papers/lombard_vc/lombard_vc_res.png" alt="" loading="lazy"  /></div>
   </div></figure>
 <h3 id="-whats-the-conclusion">👉 What&rsquo;s the conclusion?</h3>
-<p>Past studies and our work show that Lombard-style TTS indeed increases speech intelligibility in noisy surroundings. While the naturalness might take a hit, it it less noticeable in noise and the speakers&rsquo; identity is not as affected. In our study we found that the Lombard intelligibility effect is lost with basic Voice conversion but by using conditioning either implicitly or explicitly we are able to transfer them better!</p>
+<p>Past studies and our work show that Lombard-style TTS indeed increases speech intelligibility in noisy surroundings. While the naturalness might take a hit, it is less noticeable in noise and the speakers&rsquo; identity is not as affected. In our study, we found that the Lombard intelligibility effect is lost with basic Voice conversion but by using conditioning either implicitly or explicitly we are able to transfer them better!</p>
 <p><strong>Check out our paper <a href="https://www.amazon.science/publications/voice-conversion-for-lombard-speaking-style-with-implicit-and-explicit-acoustic-feature-conditioning">here</a> for more details</strong></p>
 <h3 id="-the-future-of-intelligible-speech">🚀 The Future of Intelligible Speech</h3>
-<p>Imagine a world where speech synthesis mimics our natural adjustments, making communication smoother in noisy places. With more research and innovation, Lombard-style TTS could  help with everyday activities for people with hearing impairment such as listening to music, youtube videos, watching movies etc,&hellip; and improve our interactions with smart assistants and voice-activated devices!</p>
+<p>Imagine a world where speech synthesis mimics our natural adjustments, making communication smoother in noisy places. With more research and innovation, Lombard-style TTS could help with everyday activities for people with hearing impairment such as listening to music, YouTube videos, watching movies, etc.,… and improve our interactions with smart assistants and voice-activated devices!</p>
 <h3 id="references">References</h3>
 <ul>
 <li>[1] <a href="https://www.pure.ed.ac.uk/ws/portalfiles/portal/84260765/Normal_to_Lombard_Adaptation_BOLLEPALLI_DoA180419_AFV.pdf">Bollepalli, Bajibabu, et al. &ldquo;Normal-to-Lombard adaptation of speech synthesis using long short-term memory recurrent neural networks. Speech Communication 110 (2019)</a></li>
